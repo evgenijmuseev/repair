@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-color".
-        on line 36 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\hero.sass
+        on line 37 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/hero.sass
 
-31:             justify-content: center
-32:             align-items: center
-33:             margin-right: 30px
-34:             width: 40px
-35:             height: 40px
-36:             border: 2px solid $main-color
-37:             border-radius: 50%
-38:         &__text
-39:             max-width: 231px
-40:             font-size: 14px
-41:             font-weight: 400
+32:             justify-content: center
+33:             align-items: center
+34:             margin-right: 30px
+35:             width: 40px
+36:             height: 40px
+37:             border: 2px solid $main-color
+38:             border-radius: 50%
+39:         &__text
+40:             max-width: 232px
+41:             font-size: 14px
+42:             font-weight: 400
 
 Backtrace:
-C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\hero.sass:36
+C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/hero.sass:37
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -87,4 +87,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 36 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\hero.sass\A \A 31:             justify-content: center\A 32:             align-items: center\A 33:             margin-right: 30px\A 34:             width: 40px\A 35:             height: 40px\A 36:             border: 2px solid $main-color\A 37:             border-radius: 50%\A 38:         &__text\A 39:             max-width: 231px\A 40:             font-size: 14px\A 41:             font-weight: 400"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 37 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/hero.sass\A \A 32:             justify-content: center\A 33:             align-items: center\A 34:             margin-right: 30px\A 35:             width: 40px\A 36:             height: 40px\A 37:             border: 2px solid $main-color\A 38:             border-radius: 50%\A 39:         &__text\A 40:             max-width: 232px\A 41:             font-size: 14px\A 42:             font-weight: 400"; }
