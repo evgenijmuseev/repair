@@ -46,11 +46,31 @@ img {
 }
 
 .section-title {
+  text-align: center;
   font-size: 24px;
   font-weight: 700;
 }
 .section-subtitle {
   font-size: 16px;
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #ffd200;
+  padding: 7px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .navbar {
@@ -255,6 +275,7 @@ img {
   position: relative;
 }
 .offer__title {
+  text-align: left;
   max-width: 345px;
   line-height: 35px;
   font-weight: 700;
@@ -320,4 +341,44 @@ img {
   .offer__button {
     font-size: 12px;
   }
+}
+.portfolio {
+  background: #f5f5f5 url("../img/portfolio/portfolio-img.jpg") repeat-y center left;
+  background-size: 50%;
+  padding: 100px 0;
+}
+.portfolio__title {
+  font-size: 30px;
+  margin-bottom: 95px;
+  line-height: 45px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.8);
+  display: none;
+}
+.modal_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.modal-dialog {
+  padding: 40px;
+  margin: auto;
+  max-width: 450px;
+  min-height: 200px;
+  width: 90%;
+  background-color: #fff;
+  position: relative;
+}
+.modal-dialog__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
 }

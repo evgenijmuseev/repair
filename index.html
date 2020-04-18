@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ремонт квартир</title>
 </head>
@@ -106,9 +108,79 @@
             <!-- /.container -->
         </section>
         <!-- /.offer -->
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="section-title portfolio__title">Работая с 2007 года, <br> мы сделали более 500 ремонтов в квартирах и домах</h2>
+                <!-- /.portfolio-title -->
+                <div class="owl-carousel owl-theme slider">
+                    <div class="slider__item"><img src="img/portfolio/slider-img-1.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item"><img src="img/portfolio/slider-img-2.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item"><img src="img/portfolio/slider-img-3.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item"><img src="img/portfolio/slider-img-1.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item"><img src="img/portfolio/slider-img-2.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item"><img src="img/portfolio/slider-img-3.jpg" alt="Изображение квартиры"></div>
+                    <!-- /.slider__item -->
+                </div>
+                <!-- /.slider -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.portfolio -->
+
+
+
     </main>
 
+    <div class="modal">
+        <div class="modal-dialog">
+            <button class="modal-dialog__close">&times;</button> <!-- /.modal-dialog__button -->
+            <h3 class="modal-dialog__title">Модальное окно</h3>
+            <!-- /.modal-dialog__title -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
+    <button class="arrow-up">
+        <img src="img/arrow-up.svg" alt="Прокрутка страницы">
+    </button> <!-- /.arrow-up -->
 
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').owlCarousel({
+            center: true,
+            margin: 30,
+            items: 3,
+            loop: true,
+            nav: true,
+            autoplay: true,
+            dots: false,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                576: {
+                    items:2,
+                    nav:true
+                },
+                992:{
+                    items:3,
+                    nav:true
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>

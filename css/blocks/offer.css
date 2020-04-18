@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$grey-color".
-        on line 37 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass
+        on line 38 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass
 
-32:     &__input
-33:         margin-bottom: 27px
-34:         width: 240px
-35:         padding: 26px
-36:         border-radius: 10px
-37:         border: 1px solid $grey-color
-38:         outline: none
-39:         &:focus
-40:             border: 2px solid $main-color
-41:         &:first-child
-42:             margin-right: 10px
+33:     &__input
+34:         margin-bottom: 27px
+35:         width: 240px
+36:         padding: 26px
+37:         border-radius: 10px
+38:         border: 1px solid $grey-color
+39:         outline: none
+40:         &:focus
+41:             border: 2px solid $main-color
+42:         &:first-child
+43:             margin-right: 10px
 
 Backtrace:
-C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass:37
+C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass:38
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -76,4 +76,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey-color\".\A         on line 37 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass\A \A 32:     &__input\A 33:         margin-bottom: 27px\A 34:         width: 240px\A 35:         padding: 26px\A 36:         border-radius: 10px\A 37:         border: 1px solid $grey-color\A 38:         outline: none\A 39:         &:focus\A 40:             border: 2px solid $main-color\A 41:         &:first-child\A 42:             margin-right: 10px"; }
+  content: "Error: Undefined variable: \"$grey-color\".\A         on line 38 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\offer.sass\A \A 33:     &__input\A 34:         margin-bottom: 27px\A 35:         width: 240px\A 36:         padding: 26px\A 37:         border-radius: 10px\A 38:         border: 1px solid $grey-color\A 39:         outline: none\A 40:         &:focus\A 41:             border: 2px solid $main-color\A 42:         &:first-child\A 43:             margin-right: 10px"; }
