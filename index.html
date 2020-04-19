@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -133,6 +134,103 @@
         </section>
         <!-- /.portfolio -->
 
+        <section class="price">
+            <div class="container">
+                <h2 class="section-title price__title">У нас очень гибкая система скидок <br> на комплексные работы!</h2>
+                <!-- /.section-title price__title -->
+                <span class="section-subtitle price__subtitle">Прайс на наши услуги</span>
+                <!-- /.section-subtitle price__subtitle -->
+                <div class="cards">
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card-image">
+                            <img src="img/price/bathroom.jpg" alt="Ремонт ванных комнат">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Ремонт ванных комнат и с/у</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.2s"> 
+                        <div class="card-image">
+                            <img src="img/price/living-room.jpg" alt="Ремонт комнат и квартир">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Ремонт комнат и квартир</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card-image">
+                            <img src="img/price/office.jpg" alt="Отделка офисных помещений">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Отделка офисных помещений</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="card-image">
+                            <img src="img/price/building.jpg" alt="Ремонт в новостройках">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Ремонт в новостройках</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="card-image">
+                            <img src="img/price/kitchen.jpg" alt="Ремонт кухонь">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Ремонт кухонь</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card card__price wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="card-image">
+                            <img src="img/price/houses.jpg" alt="Ремонт дач и коттеджей">
+                        </div>
+                        <!-- /.card-image -->
+                        <div class="card-text">
+                            <h3 class="card-text__title">Ремонт дач и коттеджей</h3>
+                            <!-- /.card-text__title -->
+                            <a href="#" class="card-text__link">Узнать цены</a>
+                            <!-- /.card-text__link -->
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.cards -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.price -->
 
 
     </main>
@@ -154,7 +252,11 @@
 <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
+    // wow js
+    new WOW().init();
+    // carousel slider
     $(document).ready(function(){
         $('.slider').owlCarousel({
             center: true,
