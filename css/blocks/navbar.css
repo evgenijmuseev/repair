@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$dark-color".
-        on line 24 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\navbar.sass
+        on line 24 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/navbar.sass
 
 19:     &__phone
 20:         margin-top: 9px
@@ -15,7 +15,7 @@ Error: Undefined variable: "$dark-color".
 29:         &__info
 
 Backtrace:
-C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\navbar.sass:24
+C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/navbar.sass:24
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -72,4 +72,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-color\".\A         on line 24 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\navbar.sass\A \A 19:     &__phone\A 20:         margin-top: 9px\A 21:         font-size: 20px\A 22:         font-weight: 400\A 23:         text-decoration: none\A 24:         color: $dark-color\A 25:         font-weight: 700\A 26: \A 27: @media (max-width: 768px) \A 28:     .navbar\A 29:         &__info"; }
+  content: "Error: Undefined variable: \"$dark-color\".\A         on line 24 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/navbar.sass\A \A 19:     &__phone\A 20:         margin-top: 9px\A 21:         font-size: 20px\A 22:         font-weight: 400\A 23:         text-decoration: none\A 24:         color: $dark-color\A 25:         font-weight: 700\A 26: \A 27: @media (max-width: 768px) \A 28:     .navbar\A 29:         &__info"; }

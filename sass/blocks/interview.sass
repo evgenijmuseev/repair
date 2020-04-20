@@ -1,0 +1,114 @@
+.brif
+    padding-top: 106px
+    padding-bottom: 100px
+    background: url("../img/interview/color-bg.png"), url("../img/interview/interview-bg.jpg")
+    background-size: 50%, cover
+    background-position: center left, center right
+    background-repeat: repeat-y, no-repeat
+    &-block
+        display: flex
+        flex-basis: 50%
+    .interview
+        padding-right: 21px
+        &__title
+            font: 22px
+            line-height: 35px
+            margin-bottom: 50px
+        &__subtitle
+            font-size: 16px
+            margin-bottom: 94px
+            display: block
+        &-list
+            list-style: none
+            padding: 0
+            font-size: 18px
+            font-weight: 700
+            &__item
+                display: flex
+                align-items: center
+                margin-bottom: 25px
+            &__counter
+                width: 35px
+                height: 35px
+                border: 2px solid $dark-color
+                display: flex
+                border-radius: 50%
+                justify-content: center
+                align-items: center
+                margin-right: 32px
+            &__text
+                max-width: 379px
+    &__form
+        padding-left: 230px
+    .form
+        &__title
+            text-align: center
+            font-size: 22px
+            line-height: 33px
+            margin-bottom: 52px
+        &__subtitle
+            display: block
+            text-align: center
+            margin-bottom: 49px
+    &__input
+        display: block
+        width: 100%
+        max-width: 370px
+        padding: 26px
+        border: 1px solid #dddddd
+        border-radius: 10px
+        margin-bottom: 15px
+        &:focus
+            outline: none
+            border: 2px solid $main-color
+    &__button
+        margin-top: 15px
+        width: 100%
+        height: 70px
+        font-size: 16px
+        max-width: 370px
+    &__call
+        display: block
+        text-align: center
+        margin-top: 33px
+        font-size: 15px
+@media (max-width: 1200px)
+    .brif
+        .interview
+            padding-right: 70px
+        &__form
+            padding-left: 20px
+@media (max-width: 992px)
+    .brif
+        padding-top: 106px
+        padding-bottom: 100px
+        background: url("../img/interview/color-bg.png"), url("../img/interview/interview-bg.jpg")
+        background-size: 100% 50%, cover
+        background-position: top center, bottom center
+        background-repeat: repeat-x, no-repeat
+        .interview
+            padding-right: 70px
+            padding-right: 0
+            &__title
+                text-align: center
+                margin-bottom: 30px
+            &__subtitle
+                text-align: center
+                margin-bottom: 30px
+            &-list
+                &__counter
+                    margin-right: 15px
+                &__text
+                    max-width: auto
+        &__form
+            padding-top: 140px
+            padding-left: 0
+        &-block
+            flex-direction: column
+        &__input
+            display: block
+            margin: auto
+            margin-bottom: 15px
+        &__button
+            display: block
+            margin: auto

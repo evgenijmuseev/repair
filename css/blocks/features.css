@@ -1,0 +1,53 @@
+.features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.features-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.features-block__item {
+  padding: 27px 57px 322px 25px;
+  max-width: 370px;
+}
+.features-block__item:nth-child(1) {
+  background: url("../img/features/man-1.jpg");
+}
+.features-block__item:nth-child(2) {
+  background: url("../img/features/man-2.jpg");
+}
+.features-block__item:nth-child(3) {
+  background: url("../img/features/man-3.jpg");
+}
+.features-block__text {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+@media (max-width: 1200px) {
+  .features-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features-block__item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .features-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features-block__item {
+    margin-right: 0;
+  }
+}

@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$grey-color".
-        on line 38 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/offer.sass
+Error: Undefined variable: "$dark-color".
+        on line 33 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\interview.sass
 
-33:     &__input
-34:         margin-bottom: 27px
-35:         width: 240px
-36:         padding: 26px
-37:         border-radius: 10px
-38:         border: 1px solid $grey-color
-39:         outline: none
-40:         &:focus
-41:             border: 2px solid $main-color
-42:         &:first-child
-43:             margin-right: 10px
+28:                 align-items: center
+29:                 margin-bottom: 25px
+30:             &__counter
+31:                 width: 35px
+32:                 height: 35px
+33:                 border: 2px solid $dark-color
+34:                 display: flex
+35:                 border-radius: 50%
+36:                 justify-content: center
+37:                 align-items: center
+38:                 margin-right: 32px
 
 Backtrace:
-C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/offer.sass:38
+C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\interview.sass:33
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -23,6 +23,28 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -76,4 +98,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey-color\".\A         on line 38 of C:/Users/Evgeny Museev/Desktop/projects/repair/sass/blocks/offer.sass\A \A 33:     &__input\A 34:         margin-bottom: 27px\A 35:         width: 240px\A 36:         padding: 26px\A 37:         border-radius: 10px\A 38:         border: 1px solid $grey-color\A 39:         outline: none\A 40:         &:focus\A 41:             border: 2px solid $main-color\A 42:         &:first-child\A 43:             margin-right: 10px"; }
+  content: "Error: Undefined variable: \"$dark-color\".\A         on line 33 of C:\Users\Evgeny Museev\Desktop\projects\repair\sass\blocks\interview.sass\A \A 28:                 align-items: center\A 29:                 margin-bottom: 25px\A 30:             &__counter\A 31:                 width: 35px\A 32:                 height: 35px\A 33:                 border: 2px solid $dark-color\A 34:                 display: flex\A 35:                 border-radius: 50%\A 36:                 justify-content: center\A 37:                 align-items: center\A 38:                 margin-right: 32px"; }

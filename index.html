@@ -88,9 +88,9 @@
                     <!-- /.section-title offer__title -->
                     <span class="section-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
                     <!-- /.section-subtitle offer__subtitle -->
-                    <form action="" class="form offer__form">
-                        <input type="text" class="input offer__input" placeholder="Ваше имя" required>
-                        <input type="tel" class="input offer__input" placeholder="Ваш телефон" required>
+                    <form action="" class="form offer__form" id="offer-form">
+                        <input type="text" class="input offer__input" placeholder="Ваше имя" name="username">
+                        <input type="tel" class="input offer__input phone" placeholder="Ваш телефон" name="phone">
                         <button class="button offer__button">Получить бесплатный дизайн-проект
                         </button> <!-- /.button offer__button -->
                     </form>
@@ -232,8 +232,294 @@
         </section>
         <!-- /.price -->
 
+        <section class="spec">
+            <div class="container">
+                <h3 class="section-title spec__title">Наши специалисты готовы выехать на замер <br>
+                    в любое удобное для Вас время
+                    </h3>
+                <!-- /.secion-title spec__title -->
+                <span class="section-subtitle spec__subtitle">5 шагов до ремонта
+                </span>
+                <!-- /.section-subtitle spec__subtitle -->
+                <div class="spec-block">
+                    <div class="spec-block__item wow bounceIn" data-wow-delay="0.1s">
+                        <div class="spec-block__img">
+                            <img src="img/spec/woman.png" alt="">
+                        </div>
+                        <!-- /.spec-block__img -->
+                        <p class="spec-block__text">Вы звоните нам <br>
+                            или оставляете заявку
+                            </p>
+                        <!-- /.spec-block__text -->
+                    </div>
+                    <!-- /.spec-block__item -->
+                    <div class="spec-block__item wow bounceIn" data-wow-delay="0.2s">
+                        <div class="spec-block__img">
+                            <img src="img/spec/clock.png" alt="">
+                        </div>
+                        <!-- /.spec-block__img -->
+                        <p class="spec-block__text">Согласуем удобное <br>     
+                            для Вас время выезда <br>
+                            специалиста на замер
+                            
+                            </p>
+                        <!-- /.spec-block__text -->
+                    </div>
+                    <!-- /.spec-block__item -->
+                    <div class="spec-block__item wow bounceIn" data-wow-delay="0.3s">
+                        <div class="spec-block__img">
+                            <img src="img/spec/money.png" alt="">
+                        </div>
+                        <!-- /.spec-block__img -->
+                        <p class="spec-block__text">Рассчитываем смету
+                            согласовываем <br>
+                            с Вами
+                            </p>
+                        <!-- /.spec-block__text -->
+                    </div>
+                    <!-- /.spec-block__item -->
+                    <div class="spec-block__item wow bounceIn" data-wow-delay="0.5s">
+                        <div class="spec-block__img">
+                            <img src="img/spec/document.png" alt="">
+                        </div>
+                        <!-- /.spec-block__img -->
+                        <p class="spec-block__text">Подписываем договор <br>
+                            закупаем материал <br>
+                            по оптовым ценам
+                            </p>
+                        <!-- /.spec-block__text -->
+                    </div>
+                    <!-- /.spec-block__item -->
+                    <div class="spec-block__item wow bounceIn" data-wow-delay="0.5s">
+                        <div class="spec-block__img">
+                            <img src="img/spec/calendar.png" alt="">
+                        </div>
+                        <!-- /.spec-block__img -->
+                        <p class="spec-block__text">Выполняем ремонт <br>
+                            в указанные сроки
+                            </p>
+                        <!-- /.spec-block__text -->
+                    </div>
+                    <!-- /.spec-block__item -->
+                </div>
+                <!-- /.spec-block -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.spec -->
+
+        <section class="info">
+            <div class="container">
+                <h3 class="section-title info__title">Ремонт обойдется Вам дешевле, так как <br>
+                    мы используем качественные материалы по оптовым ценам
+                    </h3>
+                <!-- /.section-title info__title -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.info -->
+
+        <section class="features">
+            <div class="container">
+                <div class="features-block">
+                    <div class="features-block__item wow fadeInRight" data-wow-delay="0.1s">
+                        <p class="features-block__text">Поможем закупить все материалы <br>
+                            по оптовым ценам у проверенных <br> поставщиков
+                            </p>
+                        <!-- /.features-block__text -->
+                    </div>
+                    <!-- /.features-block__item -->
+                    <div class="features-block__item wow fadeInRight" data-wow-delay="0.2s">
+                        <p class="features-block__text">Мы дадим Вам <span>максимальные скидки</span> <br>
+                            у наших партнеров для закупки <br> материалов оптом
+                            </p>
+                        <!-- /.features-block__text -->
+                    </div>
+                    <!-- /.features-block__item -->
+                    <div class="features-block__item wow fadeInRight" data-wow-delay="0.3s">
+                        <p class="features-block__text">Все, что не сможете найти в городе - <br>
+                            поможем заказать у <span>проверенных <br> поставщиков</span>
+                            </p>
+                        <!-- /.features-block__text -->
+                    </div>
+                    <!-- /.features-block__item -->
+                </div>
+                <!-- /.features-block -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.features -->
+
+        <section class="garant">
+            <div class="container">
+                <h2 class="section-title garant__title">Все наши гарантийные обязательства <br>подробно и прозрачно описаны в договоре</h2>
+                <!-- /.section-title garant__title -->
+                <div class="garant-block">
+                    <div class="garant-block__item">
+                        <div class="garant-block__img">
+                            <img src="img/garant/garanty-img-1.png" alt="">
+                        </div>
+                        <!-- /.garant-block__img -->
+                        <p class="garant-block__text">Гарантия на качество <br>
+                            выполняемых работ
+                            </p>
+                        <!-- /.garant-block__text -->
+                    </div>
+                    <!-- /.garant-block__item -->
+                    <div class="garant-block__item">
+                        <div class="garant-block__img">
+                            <img src="img/garant/garanty-img-2.png" alt="">
+                        </div>
+                        <!-- /.garant-block__img -->
+                        <p class="garant-block__text">Гарантия на фиксированные цены <br>
+                            Виды работ и цены на них  <br>
+                            прописаны в договоре
+                            
+                            
+                            </p>
+                        <!-- /.garant-block__text -->
+                    </div>
+                    <!-- /.garant-block__item -->
+                    <div class="garant-block__item">
+                        <div class="garant-block__img">
+                            <img src="img/garant/garanty-img-3.png" alt="">
+                        </div>
+                        <!-- /.garant-block__img -->
+                        <p class="garant-block__text">Гарантия на точное соблюдение  <br>
+                            сроков и ответственность за  <br>
+                            их невыполнение</p>
+                        <!-- /.garant-block__text -->
+                    </div>
+                    <!-- /.garant-block__item -->
+                </div>
+                <!-- /.garant-block -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.garant -->
+
+        <section class="brif">
+            <div class="container">
+                <div class="brif-block">
+                    <div class="interview brif__interview">
+                        <h2 class="interview__title">Мы можем озвучить Вам примерную стоимость 
+                            работы и материалов по телефону
+                            </h2>
+                        <!-- /.interview__title -->
+                        <span class="interview__subtitle">Для этого нужно ответить на 4 вопроса:</span> <!-- /.interview__subtitle -->
+                        <ul class="interview-list">
+                            <li class="interview-list__item">
+                                <span class="interview-list__counter">1.</span> 
+                                <!-- /.interview-list__counter -->
+                                <span class="interview-list__text">Какова площадь помещения?</span> 
+                                <!-- /.interview-list__text -->
+                            </li>
+                            <!-- /.interview-list__item -->
+                            <li class="interview-list__item">
+                                <span class="interview-list__counter">2.</span> 
+                                <!-- /.interview-list__counter -->
+                                <span class="interview-list__text">У Вас новостройка или вторичное жилье?</span> 
+                                <!-- /.interview-list__text -->
+                            </li>
+                            <!-- /.interview-list__item -->
+                            <li class="interview-list__item">
+                                <span class="interview-list__counter">3.</span> 
+                                <!-- /.interview-list__counter -->
+                                <span class="interview-list__text">Где находится помещение, в котором будет производиться ремонт?</span> 
+                                <!-- /.interview-list__text -->
+                            </li>
+                            <!-- /.interview-list__item -->
+                            <li class="interview-list__item">
+                                <span class="interview-list__counter">4.</span> 
+                                <!-- /.interview-list__counter -->
+                                <span class="interview-list__text">Назначение помещения?</span> 
+                                <!-- /.interview-list__text -->
+                            </li>
+                            <!-- /.interview-list__item -->
+                        </ul>
+                        <!-- /.interview-list -->
+                    </div>
+                    <!-- /.interview brif__interview -->
+                    <div class="form brif__form">
+                        <h3 class="form__title">Оставьте заявку на бесплатный 
+                            расчет ремонта по телефону
+                            </h3>
+                        <!-- /.form__title -->
+                        <span class="form__subtitle">Для этого заполните форму ниже
+                        </span> <!-- /.form__subtitle -->
+                        <form action="" id="brif-form">
+                            <input type="text" class="input brif__input" placeholder="Ваше имя" name="username">
+                            <input type="tel" class="input brif__input phone" placeholder="Ваш телефон" name="phone">
+                            <input type="email" class="input brif__input" placeholder="Ваш E-mail" name="email">
+                            <button class="button brif__button">Рассчитать стоимость</button>
+                            <!-- /.button brif__button -->
+                        </form>
+                        <span class="brif__call">Мы перезвоним Вам в течение 60 секунд</span> <!-- /.prif__call -->
+                    </div>
+                    <!-- /.form brif__form -->
+                </div>
+                <!-- /.interview-block -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.interview -->
 
     </main>
+
+    <footer class="footer">
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab0a7b4fefec0c5045958a16a3b13db5329c8506caef078276f5f9feeb8ffa5f6&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+        <!-- /.map -->
+        <div class="container">
+            <div class="contacts-block">
+                <div class="contacts">
+                    <h2 class="secio-title contacts__title">Приезжайте к нам в гости!
+                        Проконсультируем Вас 
+                        по всем вопросам ремонта</h2>
+                    <!-- /.secio-title contacts__title -->
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item">
+                            <span class="contacts-list__img">
+                                <img src="img/footer/map-placeholder.png" alt="">
+                            </span> <!-- /.contacts-list__img -->
+                            <span class="contacts-list__text">
+                                г. Москва
+                                ул. Ленинга, д. 10,
+                                корпус 2, оф. 308
+                            </span> <!-- /.contacts-list__text -->
+                        </li>
+                        <!-- /.contacts-list__item -->
+                        <li class="contacts-list__item">
+                            <span class="contacts-list__img">
+                                <img src="img/footer/clock-with-white-face.png" alt="">
+                            </span> <!-- /.contacts-list__img -->
+                            <span class="contacts-list__text">
+                                Режим работы: <br>
+                                с 9:00 до 18:00
+                            </span> <!-- /.contacts-list__text -->
+                        </li>
+                        <!-- /.contacts-list__item -->
+                        <li class="contacts-list__item">
+                            <span class="contacts-list__img">
+                                <img src="img/footer/phone-call-button.png" alt="">
+                            </span> <!-- /.contacts-list__img -->
+                            <span class="contacts-list__text">
+                                Телефон:    <br>
+                                <a href="tel:+7(495)42-251-31" class="contacts-list__link">+ 7 (495) 42-251-31</a>
+                            </span> <!-- /.contacts-list__text -->
+                        </li>
+                        <!-- /.contacts-list__item -->
+                    </ul>
+                    <!-- /.contacts-list -->
+                </div>
+                <!-- /.contacts -->
+            </div>
+            <!-- /.contacts-block -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
 
     <div class="modal">
         <div class="modal-dialog">
@@ -253,11 +539,57 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 <script>
     // wow js
     new WOW().init();
-    // carousel slider
+
     $(document).ready(function(){
+        //Jquery validate
+        $("#brif-form").validate({
+            rules: {
+                username: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 15
+                },
+                phone: {
+                    required: true,
+                    minlength: 11
+                },
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                username: "Нужно ввести свое имя",
+                phone: "Введите корректный номер телефона",
+                email: "Введите корректный email"
+            }
+        }); 
+
+        $("#offer-form").validate({
+            rules: {
+                username: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 15
+                },
+                phone: {
+                    required: true,
+                    minlength: 11
+                }
+            },
+            messages: {
+                username: "Нужно ввести свое имя",
+                phone: "Введите корректный номер телефона",
+            }
+        });
+        // Jquery maskedInput
+        $(".phone").mask("+7(999) 999 99-99");
+        // slider
         $('.slider').owlCarousel({
             center: true,
             margin: 30,
