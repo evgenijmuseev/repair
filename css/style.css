@@ -888,23 +888,16 @@ img {
   }
 }
 @media (max-width: 768px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   .footer .map {
+    position: relative;
     width: 100%;
   }
-  .footer .map .contacts {
+  .footer .contacts {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+  .footer .contacts-block {
+    padding-left: 0;
   }
 }
 .modal {

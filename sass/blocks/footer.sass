@@ -41,11 +41,10 @@
                 padding-left: 150px
 @media (max-width: 768px)
     .footer
-        display: flex
-        flex-direction: column
-        flex-wrap: wrap
         .map
+            position: relative
             width: 100%
-            .contacts
-                flex-basis: 100%
-            
+        .contacts
+            flex-basis: 100%
+            &-block
+                padding-left: 0
